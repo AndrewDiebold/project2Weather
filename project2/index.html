@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Weather</title>
+  <meta name="Lab 3" content="Lab 1">
+ <meta charset="utf-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+ <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+ <!-- FontAwesome -->
+  <script src="https://kit.fontawesome.com/6cbcc6dc94.js" crossorigin="anonymous"></script>
+
+
+<link href="https://fonts.googleapis.com/css?family=Roboto:300&display=swap" rel="stylesheet">
+
+
+ <script src="project2.js"></script>
+ <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <div class="container-fluid">
+    <div class="row justify-content-center">
+      <div class="col-sm-3">
+        <div class="input-group mb-2">
+          <input type="text" class="form-control" class="zipInput" id="zip" placeholder="US zipcode" >
+          <div class="input-group-append">
+            <button class="btn btn-secondary" type="button" id="getWeather">Get Weather</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br />
+
+    <div class="row justify-content-center">
+      <div class="col-sm-4 text-center">
+        <div id="location"></div><br>
+      </div>
+    </div>
+<div class="row justify-content-center">
+  <div id="wrapper">
+      <div class="text-center">
+        <div class="" id="locationTemp"></div><br>
+      </div>
+      
+      <div class="text-center">
+        <div class="" id="locationWindInfo"></div><br>
+      </div>
+      <div class="text-center">
+        <div class="" id="dewPointInfo"></div><br>
+      </div>
+      <div class="text-center">
+        <div  class=""id="humidityInfo"></div><br>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>

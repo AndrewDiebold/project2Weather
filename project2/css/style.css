@@ -1,0 +1,27 @@
+body {
+  margin-top:20px;
+}
+
+.zipInput {
+  width: 50%;
+}
+
+h1{
+  font-size: 9em;
+  font-family: 'Roboto', sans-serif;
+}
+
+h3{
+  font-size: 1.2em;
+  font-family: 'Roboto', sans-serif;
+}
+
+h4{
+  font-size: 2.5em;
+  font-family: 'Roboto', sans-serif;
+}
+
+h5{
+  font-size: 1.5em;
+  font-family: 'Roboto', sans-serif;
+}
